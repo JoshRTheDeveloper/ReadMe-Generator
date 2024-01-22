@@ -30,4 +30,4 @@ raider4414@gmail.com
 
 ## License
 
-This project is licensed under the [ license]([License](https://opensource.org/licenses/)).
+This project is licensed under the MIT License.
