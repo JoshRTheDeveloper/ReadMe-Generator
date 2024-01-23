@@ -1,8 +1,8 @@
-# readme Generator 
-![Github license](https://img.shields.io/badge/license--blue.svg)
+# ReadMe Generator 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This project will generate a readme file when prompts are answered in node js
+This project will use node js to generate a readme file
 
 ## Installation Instructions
 n/a
@@ -14,20 +14,20 @@ n/a
 * [Email](#email)
 
 ## Usage Information
-to generate a readme file
+To generate a readme file
 
 ## Contributors
-n/a
+MDN
 
 ## Test
-Node JS
+Node js
 
 ## Contact
 https://github.com/JoshRTheDeveloper
 
 ## Email
-raider4414@gmail.com
+Raider4414@gmail.com
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).

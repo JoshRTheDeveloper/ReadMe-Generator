@@ -37,10 +37,9 @@ const questions = [
     message: "How do you test this project?",
   },
   {
-    type: "checkbox",
+    type: "input",
     name: "license",
-    message: "Please select a license applicable to this project.",
-    choices: ["MIT", "none"],
+    message: "Please enter a license applicable to this project.",
   },
   {
     type: "input",
@@ -56,8 +55,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
- const content = generateMarkdown(data);
- return fs.writeFileSync(path.join(process.cwd(), fileName), content);
+  const content = generateMarkdown(data);
+  return fs.writeFileSync(path.join(process.cwd(), fileName), content, { flag: 'w' });
 }
 
 
@@ -65,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log("Create README.md File...");
-    writeToFile("./dist/README.md", responses);
+    writeToFile("README.md", responses);
   });
 }
 
